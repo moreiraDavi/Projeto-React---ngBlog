@@ -1,0 +1,12 @@
+.register {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.register p {
+    color: #aaa;
+}
+
+.register h1 {
+    color: rgb(241, 109, 0);
+}
