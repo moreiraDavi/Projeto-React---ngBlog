@@ -8,8 +8,7 @@ body {
 
 
 /* Links e Navbar */
-a,
-nav button {
+a, nav button {
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -76,6 +75,7 @@ textarea {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
+  min-width: 100px;
 }
 
 .btn:hover {
@@ -87,6 +87,7 @@ textarea {
 .btn.btn-dark {
     background-color: black;
     border-radius: 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .btn.btn-outline {
@@ -115,4 +116,14 @@ button[disabled] {
     border: 1px solid #F5C6CB;
     padding: 5px;
     border-radius: 5px;
+}
+
+.btnnavbar {
+  all: unset;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
 }

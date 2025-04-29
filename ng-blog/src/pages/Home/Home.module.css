@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_form {
+  max-width: 700px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  flex: 1;
+  padding: 0.8em;
+  font-size: 1em;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search_form button {
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  background-color: rgb(241, 109, 0);
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+.noposts a {
+  padding: 10px 25px;
+}

@@ -1,0 +1,40 @@
+.login {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login form {
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login button {
+    background-color: rgb(241, 109, 0);
+    color: white;
+    cursor: pointer;
+    padding: 0.8em;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login p {
+    color: #AAA;
+}
+
+.login h1 {
+    color: rgb(241, 109, 0);
+}

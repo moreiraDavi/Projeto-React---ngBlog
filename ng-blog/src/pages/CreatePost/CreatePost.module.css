@@ -1,20 +1,24 @@
-.register {
-    min-height: 70vh;
+.create_post {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
-.register form {
+.create_post h2 {
+    font-size: 2.2em;
+    color: rgb(241, 109, 0);
+}
+
+.create_post form {
     width: 400px;
     max-width: 90%;
     display: flex;
     flex-direction: column;
 }
 
-.register button {
+.create_post button {
     background-color: rgb(241, 109, 0);
     color: white;
     cursor: pointer;
@@ -31,10 +35,7 @@
     margin-top: 20px;
 }
 
-.register p {
+.create_post p {
     color: #aaa;
-}
-
-.register h1 {
-    color: rgb(241, 109, 0);
+    margin-bottom: 0;
 }
